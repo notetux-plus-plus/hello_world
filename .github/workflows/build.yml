@@ -6,6 +6,9 @@ on:
       - 'v*.*.*'
   pull_request:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     # Runner: ubuntu-22.04 (20.04 runners are deprecated/unavailable on GitHub).
